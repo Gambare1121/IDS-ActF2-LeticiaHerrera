@@ -1,0 +1,31 @@
+/**
+ * Clase que representa a un Empleado en el sistema.
+ * Aplica conceptos de atributos, constructores y métodos.
+ */
+public class Empleado {
+    // 1. Definición de Atributos
+    private String nombre;
+    private String puesto;
+    private double salario;
+
+    // 2. Constructor: Inicializa el objeto con valores específicos
+    public Empleado(String nombre, String puesto, double salario) {
+        this.nombre = nombre;
+        this.puesto = puesto;
+        this.salario = salario;
+    }
+
+    // 3. Métodos: Definen el comportamiento del objeto
+    
+    // Método para mostrar la información del empleado
+    public void mostrarDetalles() {
+        System.out.println("Empleado: " + nombre + " | Puesto: " + puesto + " | Salario: $" + salario);
+    }
+
+    // Método para aplicar un bono (relacionado con tu tema de tesis)
+    public void aplicarBono(double porcentaje) {
+        double bono = salario * (porcentaje / 100);
+        salario += bono;
+        System.out.println("Se ha aplicado un bono del " + porcentaje + "%. Nuevo salario: $" + salario);
+    }
+}
