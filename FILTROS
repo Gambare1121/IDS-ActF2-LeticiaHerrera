@@ -1,0 +1,7 @@
+Diseñar e Implementar Filtros en MATLAB o Python 
+Crear señales de prueba como ruido blanco y señales compuestas de distintas frecuencias.
+Graficar las señales antes de aplicar el filtro.
+Implementar filtros FIR e IIR en MATLAB o Python.
+Usar métodos como Butterworth, Chebyshev o FIR con ventana.
+Filtrar señales con diferentes configuraciones y observar los efectos.
+Comparar las señales antes y después del filtrado.
